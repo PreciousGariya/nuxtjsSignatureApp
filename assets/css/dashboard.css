@@ -1,0 +1,30 @@
+/* @import "app.css"; */
+
+[data-bs-theme=dark] .navbar {
+  --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+  background-color: #212529;
+  color: #fff!important;
+}
+
+[data-bs-theme=dark] .navbar .text-dark{
+  color: #939ba2!important;
+}
+.dropdown-menu-lg{
+  min-width: 20rem;
+}
+.dropdown-toggle:after {
+  border: solid;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+}
+
+.sidebar-toggle {
+  /* margin-right: 1rem; */
+  margin: 0.5rem;
+}
+
+body a{
+  text-decoration: none;
+}
