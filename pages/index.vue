@@ -1,7 +1,11 @@
 <template>
-    <div class="card flex justify-content-center">
-        <SignPad />
+    <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row g-3">
+          <SignPad />
+      </div>
     </div>
+  </div>
 </template>
 
 <script setup>
