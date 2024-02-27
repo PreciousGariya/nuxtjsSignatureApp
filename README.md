@@ -53,6 +53,8 @@ npm run build
 ```
 
 Locally preview production build:
+![image](https://github.com/PreciousGariya/nuxtjsSignatureApp/assets/113532935/9732829e-a5fd-48b5-bb5a-018857540abf)
+
 
 ```bash
 npm run preview
