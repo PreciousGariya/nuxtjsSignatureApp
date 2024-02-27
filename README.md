@@ -1,12 +1,24 @@
-# Nuxt Example
+# Nuxt Signature Draw and Download Example
 
-Deploy your [Nuxt](https://nuxt.com) project to Vercel with zero configuration.
+This Application demonstrates how to integrate signature drawing and download functionality into a Nuxt.js 3 application using the Vue Canvas Drawing library.
+
+## Signature Draw and Download
+
+In this Application, users can draw their signatures directly onto a canvas element. The Vue Canvas Drawing library provides a user-friendly interface for creating signatures with features like pen thickness and color selection.
+
+Once users are satisfied with their signature, they can easily download it as an image file. The application dynamically converts the canvas content into a downloadable image, allowing users to save their signatures locally for various purposes.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/nuxtjs&template=nuxtjs)
 
-_Live Example: https://nuxtjs-template.vercel.app_
+_Live Example: [https://nuxtjs-template.vercel.app_](https://nuxtjs-signature-app-lovat.vercel.app/)
 
 Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+
+## Clone repo
+```bash
+git clone https://github.com/PreciousGariya/nuxtjsSignatureApp.git
+````
+
 
 ## Setup
 
@@ -21,6 +33,7 @@ npm install
 
 # pnpm
 pnpm install --shamefully-hoist
+
 ```
 
 ## Development Server
